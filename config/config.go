@@ -33,8 +33,9 @@ func NewDefaultConfig() *Config {
 		FFmpegConfig: FFmpegConfig{
 			Renditions: []Rendition{
 				{Width: 640, Height: 360, Bitrate: "800k"},
-				// {Width: 854, Height: 480, Bitrate: "1200k"},
-				// {Width: 1280, Height: 720, Bitrate: "2000k"},
+				{Width: 854, Height: 480, Bitrate: "1200k"},
+				{Width: 1280, Height: 720, Bitrate: "2000k"},
+				// {Width: 1920, Height: 1080, Bitrate: "3000k"},
 			},
 			SegmentDuration: 4,
 			PresetSpeed:     "fast",
